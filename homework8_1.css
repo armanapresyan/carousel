@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(ararat.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#divParent {
+  display: flex;
+}
+
+#imgBtn1 {
+  width: 35px;
+  height: 35px;
+}
+
+#imgBtn2 {
+  width: 35px;
+  height: 35px;
+}
+
+.image {
+  width: 1000px;
+  height: 800px;
+  border: 1px solid black;
+}
+
+#divParent > button {
+  opacity: 0.4;
+  border: none;
+}
+
+.image:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
